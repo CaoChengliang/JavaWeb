@@ -4,9 +4,9 @@ import com.alibaba.druid.pool.DruidDataSourceFactory;
 
 import javax.sql.DataSource;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.sql.Connection;
-import java.util.Map;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.util.Properties;
 
 /*
@@ -26,6 +26,32 @@ public class Druid {
 
         Connection connection = dataSource.getConnection();
 
+
+
+        //sql×¢Èë
+        String username= "zhangsan";
+        String pwd = "123";
+
+        //sqlÓï¾ä
+        String sql = "select * from tb_user where username = ? and password = ?";
+
+        //Ð´preparestatment
+
+        PreparedStatement pstmt = connection.prepareStatement(sql);
+
+        pstmt.setString(1,username);
+        pstmt.setString(2,pwd);
+        ResultSet rs = pstmt.executeQuery();
+
+        if(rs.next()){
+            System.out.println("1µÇÂ½³É¹¦");
+        }else{
+            System.out.println("2µÇÂ½Ê§°Ü");
+        }
+
+        rs.close();
+        pstmt.close();
+        connection.close();
         System.out.println(System.getProperty("user.dir"));
         connection.close();
     }
