@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+    namespace :命名空间
+-->
+
+<mapper namespace="com.learnJavaWeb.mapper.UserMapper">
+    <!--还有update等标签 resultType返回什么类型-->
+    <select id="selectAll" resultType="user">
+               select * from tb_user;
+    </select>
+</mapper>
