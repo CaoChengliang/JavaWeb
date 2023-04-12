@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript演示</title>
+</head>
+<body>
+
+
+
+
+<input type="button" onclick="on()" value="开灯">
+<img id="myImage" border="0" src="../imgs/off.gif" style="text-align:center;">
+<input type="button" onclick="off()" value="关灯">
+<hr>
+
+
+
+
+
+<script>
+
+
+    function on(){
+        document.getElementById('myImage').src='../imgs/on.gif';
+    }
+
+    function off(){
+        document.getElementById('myImage').src='../imgs/off.gif'
+    }
+
+    var flag = 0;
+
+    setInterval(function (){
+
+        if(flag % 2 == 0){
+
+            on();
+
+        }else{
+
+            off();
+
+        }
+
+        flag++;
+
+    }, 1000)
+
+</script>
+
+</body>
+</html>

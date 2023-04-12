@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JDBC/JDBC.iml" filepath="$PROJECT_DIR$/JDBC/JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaWeb.iml" filepath="$PROJECT_DIR$/.idea/JavaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Js-demo/Js-demo.iml" filepath="$PROJECT_DIR$/Js-demo/Js-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyBatis-demo/MyBatis-demo.iml" filepath="$PROJECT_DIR$/MyBatis-demo/MyBatis-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-demo/maven-demo.iml" filepath="$PROJECT_DIR$/maven-demo/maven-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/request-demo/request-demo.iml" filepath="$PROJECT_DIR$/request-demo/request-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tomcat-demo1/tomcat-demo1.iml" filepath="$PROJECT_DIR$/tomcat-demo1/tomcat-demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tomcat-demo2/tomcat-demo2.iml" filepath="$PROJECT_DIR$/tomcat-demo2/tomcat-demo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-demo/web-demo.iml" filepath="$PROJECT_DIR$/web-demo/web-demo.iml" />
+    </modules>
+  </component>
+</project>

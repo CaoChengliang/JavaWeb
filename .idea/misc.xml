@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/request-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/tomcat-demo1" />
+    <file type="web" url="file://$PROJECT_DIR$/tomcat-demo2" />
+    <file type="web" url="file://$PROJECT_DIR$/web-demo" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/maven-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/arcanum/pom.xml" />
+        <option value="$PROJECT_DIR$/MyBatis-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/tomcat-demo1/tomcat-demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/tomcat-demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/tomcat-demo2/pom.xml" />
+        <option value="$PROJECT_DIR$/web-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/request-demo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

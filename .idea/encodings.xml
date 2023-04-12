@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/JDBC/src/com/learnJavaWeb/JDBCDemo/JDBC_demo6_UserLogin.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/arcanum/arcanum-algebra/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/arcanum/arcanum-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/arcanum/arcanum-lattice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/arcanum/arcanum-pairing/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/arcanum/arcanum-pbc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/arcanum/arcanum-schemes/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/arcanum/arcanum-site-skin/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>
