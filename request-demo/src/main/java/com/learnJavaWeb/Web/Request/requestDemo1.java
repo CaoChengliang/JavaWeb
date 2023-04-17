@@ -16,7 +16,7 @@ public class requestDemo1 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         //POST :设置输入流的字符编码
-        request.setCharacterEncoding("UTF-8");
+        //request.setCharacterEncoding("UTF-8");
 
 
         String username = request.getParameter("username");

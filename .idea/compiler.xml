@@ -7,20 +7,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tomcat-demo1" />
-        <module name="web-demo" />
         <module name="tomcat-demo2" />
+        <module name="Jsp-demo" />
         <module name="maven-demo" />
-        <module name="MyBatis-demo" />
+        <module name="filter-demo" />
         <module name="request-demo" />
+        <module name="web-demo" />
+        <module name="brand-demo" />
+        <module name="MyBatis-demo" />
+        <module name="cookie-demo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="maven-demo" target="17" />
-      <module name="MyBatis-demo" target="17" />
-      <module name="request-demo" target="17" />
-      <module name="tomcat-demo1" target="17" />
+    <bytecodeTargetLevel target="8">
+      <module name="brand-demo" target="1.5" />
+      <module name="cookie-demo" target="1.5" />
+      <module name="filter-demo" target="1.5" />
+      <module name="Jsp-demo" target="1.8" />
+      <module name="maven-demo" target="1.5" />
+      <module name="MyBatis-demo" target="1.5" />
+      <module name="request-demo" target="5" />
+      <module name="tomcat-demo1" target="1.5" />
       <module name="tomcat-demo2" target="17" />
-      <module name="web-demo" target="17" />
+      <module name="web-demo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
