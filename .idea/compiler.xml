@@ -11,6 +11,7 @@
         <module name="Jsp-demo" />
         <module name="maven-demo" />
         <module name="filter-demo" />
+        <module name="brand-case" />
         <module name="request-demo" />
         <module name="web-demo" />
         <module name="brand-demo" />
@@ -19,6 +20,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="brand-case" target="8" />
       <module name="brand-demo" target="1.5" />
       <module name="cookie-demo" target="1.5" />
       <module name="filter-demo" target="1.5" />
