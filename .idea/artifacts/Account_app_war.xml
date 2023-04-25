@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Account-app:war">
+    <output-path>$PROJECT_DIR$/Account-app/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Account-app</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Account-app-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Account-app:war exploded" />
+    </root>
+  </artifact>
+</component>
